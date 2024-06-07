@@ -1,0 +1,82 @@
+.cardContainer{
+    position: relative;
+    padding: 20px;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    /* max-height: 400px; */
+    background-color: antiquewhite;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+
+}
+
+.cardContainer h4 , .cardContainer h5{
+    padding-bottom: 5px;
+}
+.cardContainer h4{
+    font-size: 18px;
+}
+.cardContainer h5{
+    font-size: 17px;
+
+}
+
+.cardContainer p:not(.dateLabel){
+    color: #000;
+    font-size: 15px;
+}
+
+.dateLabel{
+    color: #2a2121;
+    font-weight: 600;
+    font-style: italic;
+    text-align: end;
+}
+
+
+
+.imageContainer{
+    display: flex;
+    justify-content: space-between;
+    max-height: 100%;
+    align-items: center;
+    
+}
+
+.imageContainer img{
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+    height: fit-content;
+    margin-right: 10px;
+
+}
+
+
+@media  (min-width:992px) and (max-width:1350px) {
+    .imageContainer{
+  flex-direction: column;
+    }
+}
+
+@media (max-width:992px) {
+    .cardContainer{
+        width: 49%;
+    }
+}
+
+@media (max-width:768px) {
+    .cardContainer{
+        width: 100%;
+    }
+}
+@media (max-width:576px) {
+    .imageContainer{
+        flex-direction: column;
+          }
+          .imageContainer img{
+margin-bottom: 10px;
+          }
+}

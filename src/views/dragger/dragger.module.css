@@ -1,0 +1,60 @@
+.appcontainer{
+    width: 100%;
+    height: calc(100vh - 60px);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+
+}
+
+.appcontainer >div{
+    width: 32%;
+    height: calc(100vh - 60px);
+    border: 1px solid grey;
+    /* position: relative; */
+}
+
+.appcontainer h4{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.itemContainer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25%;
+    align-items: center;
+}
+
+.itemContainer{
+
+}
+
+.itemContainer>div{
+    border: 1px dashed grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    min-width: 100px;
+    margin-bottom: 15px;
+}
+
+.dropContainer{
+    width: 100%;
+    position: absolute;
+    height: calc(100% - 41px);
+    background: green;
+}
+
+.droppedItem{
+    border: 1px dashed grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    min-width: 100px;
+    margin-bottom: 15px;
+    position: absolute;
+}

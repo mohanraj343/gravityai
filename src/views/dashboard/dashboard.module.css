@@ -1,0 +1,15 @@
+.appcontainer{
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 30px;
+
+}
+
+.cardcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
